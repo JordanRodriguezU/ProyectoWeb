@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/06/2015, 04:50:06 PM
+    Author     : JordanR
+*/
+
+.tab:target span:first-of-type a:hover {
+    background: #fff;
+    color: black;
+}
+.tab span:nth-of-type(2) {
+    font-size: 14px;
+    padding: 20px;
+    color: #888;
+    line-height: 18px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.tab p {
+    padding: 0; 
+    margin: 0;
+    text-align: justify;
+}
+.tab:target span {
+    z-index: 1;
+}
+.tab:target span:first-of-type a {
+    background: #fff;
+    padding: 16px 20px 15px 20px;
+    color: #1a2c45;
+}
+.tab span:first-of-type a:hover {
+    background: red;
+    color: #fff;
+}
+.tab span:first-of-type a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+FONT{
+    color: white;
+}
+#user{
+    height: 22px;
+    width: 129px;
+    font-size: 10px;
+    padding: 15px;
+    color: #888;
+    line-height: 15px;
+    position: absolute;
+    left: 1200px;
+    top: 2px;
+    border: 2px dashed white;
+}
+img{
+    float: right;
+}
+.tab:first-of-type {
+    margin-left: 0;
+}
+.tab {
+    display: inline-table;
+    margin-left: 10px;
+    color: orange;
+    background: orange;
+    border: 2px dashed white;
+
+}
+#contenedor{
+    background: orange;
+    border: 2px solid black;
+}
+#tab-box {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0;
+    margin: 0 auto;
+    position: relative;
+    top: initial;
+    width:420px;
+    background: orange;
+}
+body {
+    background-color: mintcream;
+    margin: 0px;
+    
+}
+li{
+    list-style: none;
+}
+

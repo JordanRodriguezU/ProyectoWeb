@@ -14,6 +14,37 @@ and open the template in the editor.
             $(document).ready(function(){
                $("body").hide().fadeIn(2000); 
             });
+            
+        </script>
+        <script>
+            function validar()
+            {
+                if(document.getElementById("usuario").value=="")
+                {
+                    $("#xxx").remove();
+                    $("#xxxx").remove();
+                    $("#usuario").after("<br id='xxx'><label id='xxxx'> El Usuario No Debe De Estar Vacio</label>");
+                }
+                else
+                {
+                    $("#xxx").remove();
+                    $("#xxxx").remove();
+                }
+            }
+            function validar2()
+            {
+                if(document.getElementById("pass").value=="")
+                {
+                    $("#xxx1").remove();
+                    $("#xxxx1").remove();
+                    $("#pass").after("<br id='xxx1'><label id='xxxx1'> La Contraseña No Debe De Estar Vacia</label>");
+                }
+                else
+                {
+                    $("#xxx1").remove();
+                    $("#xxxx1").remove();
+                }
+            }
         </script>
     <!--    
         <script>
@@ -39,10 +70,10 @@ window.location.href=pagina;
             
             <form action="dashboard.html" class="login" title="Login">
                 <br>
-                <input class="texto" type="text" title="Digite Su Usuario">
+                <input id="usuario" class="texto" type="text" title="Digite Su Usuario" placeholder="Digite Su Usuario" onkeyup="validar()">
                 <br>
                 <br>
-                <input class="texto" type="password" title="Digite su Contraseña">
+                <input id="pass" class="texto" type="password" title="Digite su Contraseña" placeholder="Digite Su Contraseña" onkeyup="validar2()">
                 <br>
                 <br>
                 <input id="boton" type="submit" title="Ingresar" value="Ingresar">

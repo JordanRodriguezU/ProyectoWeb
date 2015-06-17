@@ -4,9 +4,11 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 13/06/2015, 11:11:12 PM
+    Created on : 14/06/2015, 01:00:31 PM
     Author     : JordanR
 */
+
+
 .tab:target span:first-of-type a:hover {
     background: #fff;
     color: black;
@@ -120,39 +122,13 @@ body{
     font-size: 20px;
 }
 
-table{
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0px;
-    margin-top: 20px;
-}
-tr{
-    width: 100%;
-    height: 56px;
-}
-tbody{
-    width: 100%;
-    background: white;
-}
-thead{
-    height: 70px;
-    background: green;
-}
-th{
-    color: white;
-}
-td{
-    width: 6%;
-    text-align: center;
-    border: 0px;
-    margin: 0px;
-}
+
 li{
     list-style: none;
 }
 
 #secIn2{
-    width: 18%;
+    width: 74%;
     height: 100px;
     display: inline-block;
 }
@@ -166,19 +142,37 @@ button{
     background: orange;
     color: white;
     background-color: orange;
-    width: 110px;
+    width: 120px;
     height: 60px;
     border-radius: 10px;
 }
 input{
     background: orange;
     color: white;
-    border: 0px;
+    border: 0px outset buttonface;
     font-size: 17px;
 }
+#sectext{
+    width: 100%;
+}
+.textos{
+    background: white;
+    width:100%;
+    border: 1px solid darkgrey;
+    color: orange;
+}
+.ttextos{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+form{
+    width: 65%;
+    margin-left: 208px;
+}
 p{
-    width: 142px;
+    width: 224px;
     margin-top: 36px;
+    margin-right: 66%;
     float: right;
     font-size: 34px;
     color: orange;

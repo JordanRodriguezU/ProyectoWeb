@@ -4,9 +4,10 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 13/06/2015, 11:11:12 PM
+    Created on : 14/06/2015, 09:32:28 AM
     Author     : JordanR
 */
+
 .tab:target span:first-of-type a:hover {
     background: #fff;
     color: black;
@@ -166,7 +167,7 @@ button{
     background: orange;
     color: white;
     background-color: orange;
-    width: 110px;
+    width: 120px;
     height: 60px;
     border-radius: 10px;
 }

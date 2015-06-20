@@ -87,8 +87,9 @@ and open the template in the editor.
     margin: 0 auto;
     position: relative;
     top: initial;
-    width:54%;
+    width:42%;
     background: orange;
+    margin-left: 21%;
 }
 #imguser{
     float: right;
@@ -182,16 +183,43 @@ input{
 }
 form{
     width: 65%;
-    margin-left: 208px;
+    margin-left: 20%;
 }
 p{
-    width: 50%;
+    width: 70%;
     margin-top: 36px;
     float: right;
     font-size: 34px;
     color: orange;
 }
 #imagenewclient{
-    width: 50%;
+    width: 30%;
     height: 100%;
+}
+#optabajo{
+    width: 65%;
+    height: 50px;
+    margin-left: 20%;
+}
+#btnsave{
+    float: right;
+    color: white;
+    
+    width: 12%;
+    height: 100%;
+   // border-radius: 2px;
+}
+#btnsav{
+    background: orange;
+    background-color: green;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+}
+#btncancel{
+    width: 13%;
+    height: 100%;
+    float: left;
+    padding-top: 2%;
 }

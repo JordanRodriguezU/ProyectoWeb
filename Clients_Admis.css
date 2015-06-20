@@ -177,13 +177,13 @@ input{
     font-size: 17px;
 }
 p{
-    width: 50%;
+    width: 70%;
     margin-top: 36px;
     float: right;
     font-size: 29px;
     color: orange;
 }
 #imagencliente{
-    width: 50%;
+    width: 30%;
     height: 100%;
 }

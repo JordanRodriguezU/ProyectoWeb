@@ -178,13 +178,13 @@ input{
     font-size: 17px;
 }
 p{
-    width: 50%;
+    width: 70%;
     margin-top: 36px;
     float: right;
     font-size: 34px;
     color: orange;
 }
 #imageninvoice{
-    width: 50%;
+    width: 30%;
     height: 100%;
 }

@@ -13,53 +13,68 @@ and open the template in the editor.
     background: #fff;
     color: black;
 }
-.tab span:nth-of-type(2) {
-    font-size: 14px;
-    padding: 20px;
-    color: #888;
-    line-height: 18px;
-    height: 250px;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.tab:target span {
-    z-index: 1;
-}
-.tab:target span:first-of-type a {
-    background: #fff;
-    padding: 16px 20px 15px 20px;
-    color: #1a2c45;
-}
+//.tab span:nth-of-type(2) {
+    //font-size: 14px;
+    //padding: 20px;
+    //color: #888;
+    //line-height: 18px;
+    //height: 100%;
+   // background: #fff;
+   // position: absolute;
+    //left: 0;
+   // border-bottom-left-radius: 20px;
+   // border-bottom-right-radius: 20px;
+    //border-top-right-radius: 20px;
+//}
+//.tab:target span {
+   // z-index: 1;
+//}
+//.tab:target span:first-of-type a {
+   // background: #fff;
+   // padding: 16px 20px 15px 20px;
+    //color: #1a2c45;
+//}
 .tab span:first-of-type a:hover {
     background: red;
     color: #fff;
 }
-.tab span:first-of-type a {
+.tab span a {
     cursor: pointer;
     display: inline-block;
     padding: 15px 20px;
+    width: 66%;
+    height: 100%;
     color: white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    //border-top-left-radius: 5px;
+    //border-top-right-radius: 5px;
     text-decoration: none;
     background-color: orange;
     font-size: 18px;
     font-weight: bold;
 }
-.tab:first-of-type {
-    margin-left: 0;
+#a2{
+    width: 69%;
 }
+#a3{
+    width: 68%;
+}
+
+
 .tab {
     display: inline-table;
-    margin-left: 10px;
     color: orange;
     background: orange;
     border: 2px dashed white;
+    width: 15%;
+   
 
+}
+#tab-1{
+    margin-right: 1%;
+       
+}
+#tab-2{
+    margin-right: 1%;
 }
 #contenedor{
     background: orange;
@@ -72,7 +87,7 @@ and open the template in the editor.
     margin: 0 auto;
     position: relative;
     top: initial;
-    width:420px;
+    width:54%;
     background: orange;
 }
 #imguser{
@@ -128,7 +143,7 @@ li{
 }
 
 #secIn2{
-    width: 74%;
+    width: 45%;
     height: 100px;
     display: inline-block;
 }
@@ -170,10 +185,13 @@ form{
     margin-left: 208px;
 }
 p{
-    width: 224px;
+    width: 50%;
     margin-top: 36px;
-    margin-right: 66%;
     float: right;
     font-size: 34px;
     color: orange;
+}
+#imagenewclient{
+    width: 50%;
+    height: 100%;
 }

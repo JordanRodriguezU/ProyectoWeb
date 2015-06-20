@@ -20,7 +20,7 @@ section{
     //border: 2px solid activeborder;
     height: 449px;
     width: 100%;
-        
+
 }
 h1.descripcion{
     text-align: center;
@@ -77,7 +77,8 @@ section ul li section{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-decoration: none;
-    background-color: orange;
+    background-color:orange;
+    //orange;
     font-size: 18px;
     font-weight: bold;
 }
@@ -126,7 +127,7 @@ img{
 body {
     background-color: mintcream;
     margin: 0px;
-    
+
 }
 li{
     list-style: none;

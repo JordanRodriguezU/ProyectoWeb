@@ -152,7 +152,7 @@ li{
 }
 
 #secIn2{
-    width: 18%;
+    width: 45%;
     height: 100px;
     display: inline-block;
 }
@@ -177,9 +177,13 @@ input{
     font-size: 17px;
 }
 p{
-    width: 142px;
+    width: 50%;
     margin-top: 36px;
     float: right;
-    font-size: 34px;
+    font-size: 29px;
     color: orange;
+}
+#imagencliente{
+    width: 50%;
+    height: 100%;
 }

@@ -5,16 +5,19 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Clients_Admis.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-</head>
-    <body>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Invoices_Admin.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function (){
+               alert("Se ha Creado Exitoxamente el Invoice"); 
+            });
+        </script>
+    </head>
+ <body>
         
             <div id="contenedor">
                 
@@ -75,14 +78,14 @@ and open the template in the editor.
         <section id="seccion2">
             <section id="secIn2">
                 
-                <img id="imagencliente" src="Imgs/Clients.png" width="100" height="95" alt="Clients"/>
-                    <p>CLIENTS</p>
+                <img id="imageninvoice" src="Imgs/Clients.png" width="100" height="95" alt="Clients"/>
+                    <p>INVOICES</p>
 
                 
             </section>
-            <a href="New_Client.html">
+            <a href="New_Invoice.html">
             <button>
-                <input type="button" value="New Client"/>
+                <input type="button" value="New Invoice"/>
             </button>
             </a>
         </section>
@@ -90,24 +93,28 @@ and open the template in the editor.
   <table class="table">
     <thead>
       <tr>
-        <th>ID</th>
-        <th>Full Name</th>
-        <th>Telephone</th>
+        <th>Invoice #</th>
+        <th>Client</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Amount</th>
         <th>Actions</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>2-566-623</td>
+        <td>2234</td>
         <td>Yamma Luna</td>
-        <td>86457654</td>
+        <td>Reportera</td>
+        <td>12/02/2015</td>
+        <td>$50</td>
         <td>
     <li>
-        <a href="Edit_Client.html">
-            <img src="Imgs/Edit_Client.png" width="30" height="30" alt="Folder"/>
+        <a href="Edit_Invoice1.html">
+            <img src="Imgs/Edit_Invoice.png" width="30" height="30" alt="Folder"/>
         </a>
-        <a href="Delete_Client.html">
-            <img src="Imgs/delete.png" width="30" height="30" alt="invoices"/>
+        <a href="Delete_Invoice1.html">
+            <img src="Imgs/delete_invoice.png" width="30" height="30" alt="invoices"/>
         </a>
 
 
@@ -115,17 +122,19 @@ and open the template in the editor.
         </td>
       </tr>
       <tr>
-        <td>1-122-453</td>
+        <td>2235</td>
         <td>Bladimir Arroyo</td>
-        <td>864235434</td>
+        <td>Ingeniero del Software</td>
+        <td>02/05/2014</td>
+        <td>$45</td>
         <td>
             
       <li>
-          <a href="Edit_Client1.html">
-              <img src="Imgs/Edit_Client.png" width="30" height="30" alt="Folder"/>
+          <a href="Edit_Invoice2.html">
+            <img src="Imgs/Edit_Invoice.png" width="30" height="30" alt="Folder"/>
         </a>
-          <a href="Delete_client1.html">
-            <img src="Imgs/delete.png" width="30" height="30" alt="invoices"/>
+          <a href="Delete_Invoice2.html">
+            <img src="Imgs/delete_invoice.png" width="30" height="30" alt="invoices"/>
         </a>
 
 

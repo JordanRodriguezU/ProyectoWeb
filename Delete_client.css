@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/06/2015, 12:04:36 PM
+    Author     : JordanR
+*/
+
+
+.tab:target span:first-of-type a:hover {
+    background: #fff;
+    color: black;
+}
+//.tab span:nth-of-type(2) {
+    //font-size: 14px;
+    //padding: 20px;
+    //color: #888;
+    //line-height: 18px;
+    //height: 100%;
+   // background: #fff;
+   // position: absolute;
+    //left: 0;
+   // border-bottom-left-radius: 20px;
+   // border-bottom-right-radius: 20px;
+    //border-top-right-radius: 20px;
+//}
+//.tab:target span {
+   // z-index: 1;
+//}
+//.tab:target span:first-of-type a {
+   // background: #fff;
+   // padding: 16px 20px 15px 20px;
+    //color: #1a2c45;
+//}
+.tab span:first-of-type a:hover {
+    background: red;
+    color: #fff;
+}
+.tab span a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 20px;
+    width: 66%;
+    height: 100%;
+    color: white;
+    //border-top-left-radius: 5px;
+    //border-top-right-radius: 5px;
+    text-decoration: none;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+#a2{
+    width: 69%;
+}
+#a3{
+    width: 68%;
+}
+
+
+.tab {
+    display: inline-table;
+    color: orange;
+    background: orange;
+    border: 2px dashed white;
+    width: 15%;
+   
+
+}
+#tab-1{
+    margin-right: 1%;
+       
+}
+#tab-2{
+    margin-right: 1%;
+}
+#contenedor{
+    background: orange;
+    border: 2px solid black;
+    display: flex;
+}
+#tab-box {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0;
+    margin: 0 auto;
+    position: relative;
+    top: initial;
+    width:42%;
+    background: orange;
+    margin-left: 21%;
+}
+#imguser{
+    float: right;
+}
+#user{
+    height: 22px;
+    width: 129px;
+    font-size: 10px;
+    padding: 15px;
+    color: #888;
+    line-height: 15px;
+    //position: absolute;
+    
+    float: right;
+    top: 2px;
+    border: 2px dashed white;
+}
+#inicio{
+    height: 22px;
+    width: 129px;
+    font-size: 10px;
+    padding: 15px;
+    color: #888;
+    line-height: 15px;
+    //position: absolute;
+    border-radius: 20px;
+    float: left;
+    top: 2px;
+    border: 2px dashed white;
+}
+#inicio span{
+    font-size: 51px;
+    color: white;
+}
+.tab p {
+    padding: 0; 
+    margin: 0;
+    text-align: justify;
+}
+body{
+    background-color: mintcream;
+    margin: 0px;
+}
+#nuser{
+    color: white;
+    font-size: 20px;
+}
+
+
+li{
+    list-style: none;
+}
+
+#secIn2{
+    width: 45%;
+    height: 100px;
+    display: inline-block;
+}
+#seccion2{
+    
+}
+button{
+    float: right;
+    margin-top: 28px;
+    margin-right: 25px;
+    background: orange;
+    color: white;
+    background-color: orange;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+}
+input{
+    background: orange;
+    color: white;
+    border: 0px outset buttonface;
+    font-size: 17px;
+}
+#sectext{
+    width: 100%;
+}
+#seccion3{
+    width: 100%;
+    height: 260px;
+}
+
+p{
+    width: 70%;
+    margin-top: 36px;
+    float: right;
+    font-size: 34px;
+    color: orange;
+}
+#texto{
+    width: 87%;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    padding-top: 11%;
+    margin-left: 7%;
+}
+#imagenewclient{
+    width: 30%;
+    height: 100%;
+}
+#optabajo{
+    width: 65%;
+    height: 50px;
+    margin-left: 20%;
+}
+#btnsave{
+    float: right;
+    color: white;
+    
+    width: 12%;
+    height: 100%;
+   // border-radius: 2px;
+}
+#btnsav{
+    background: orange;
+    background-color: green;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+}
+#btncance{
+    background: orange;
+    background-color: red;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+}
+#btncancel{
+    width: 13%;
+    height: 100%;
+    float: left;
+}

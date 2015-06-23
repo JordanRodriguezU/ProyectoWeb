@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <title>TODO supply a title</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="New_Client.css">
+        <link rel="stylesheet" href="Delete_client.css">
     </head>
     <body>
         <div id="contenedor">
@@ -67,46 +67,44 @@ and open the template in the editor.
 
 
         </div>
-                <section id="seccion2">
+        <section id="seccion2">
             <section id="secIn2">
-                
-                <img id="imagenewclient" src="Imgs/Clients.png" width="100" height="95" alt="Clients"/>
-                    <p>EDIT CLIENT</p>
 
-                
+                <img id="imagenewclient" src="Imgs/Clients.png" width="100" height="95" alt="Clients"/>
+                <p>DELETE CLIENT</p>
+
+
             </section>
-                    <a href="New_Client.html">
+            <a href="New_Client.html">
             <button>
                 <input type="button" value="New Client"/>
             </button>
-                    </a>
+            </a>
         </section>
-        
+
+        <section id="seccion3">
+            <p id="texto">
+                Are you sure you want to delete the client with name "Yamma Luna"?
+            </p>
+        </section>
         <section id="sectext">
-            <form method="POST">
-                <h4 class="ttextos">First Name</h4>
-                <input class="textos" type="text" placeholder="Enter Your First Name" value="Yamma">
-                <h4 class="ttextos">Last Name</h4>
-                <input class="textos" type="text" placeholder="Enter Your Last Name" value="Luna">
-                <h4 class="ttextos">Telephone</h4>
-                <input class="textos" type="tel" placeholder="Enter Your Telephone" value="86457654">
-                <h4 class="ttextos">Id</h4>
-                <input class="textos" type="text" placeholder="Enter Your Id" value="2-566-623">
 
-
-            </form>
             <section id="optabajo">
                 <section id="btncancel">
-                    <a href="Clients_Administration.html">Cancel</a>
-                </section>
-                <section id="btnsave">
-                    <a href="Client_edit1.html">
-                        <button id="btnsav" value="Save" type="button">
-                            Save
+                    <a href="Clients_Administration.html">
+                        <button id="btncance" value="Save" type="button">
+                            No
                         </button>
                     </a>
                 </section>
+                <section id="btnsave">
+                    <a href="Client_Delete1.html">
+                        <button id="btnsav" value="Save" type="button">
+                            Yes
+                        </button>
+                    </a>
                 </section>
+            </section>
         </section>
     </body>
 </html>

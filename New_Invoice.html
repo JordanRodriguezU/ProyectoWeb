@@ -7,8 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <title>TODO supply a title</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="New_Client.css">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="New_Invoice.css">
     </head>
     <body>
         <div id="contenedor">
@@ -71,27 +71,32 @@ and open the template in the editor.
             <section id="secIn2">
                 
                 <img id="imagenewclient" src="Imgs/Clients.png" width="100" height="95" alt="Clients"/>
-                    <p>EDIT CLIENT</p>
+                    <p>NEW INVOICE</p>
 
                 
             </section>
-                    <a href="New_Client.html">
+                    <a href="New_Invoice.html">
             <button>
-                <input type="button" value="New Client"/>
+                <input type="button" value="New Invoice"/>
             </button>
                     </a>
         </section>
         
         <section id="sectext">
             <form method="POST">
-                <h4 class="ttextos">First Name</h4>
-                <input class="textos" type="text" placeholder="Enter Your First Name" value="Yamma">
-                <h4 class="ttextos">Last Name</h4>
-                <input class="textos" type="text" placeholder="Enter Your Last Name" value="Luna">
-                <h4 class="ttextos">Telephone</h4>
-                <input class="textos" type="tel" placeholder="Enter Your Telephone" value="86457654">
+                <h4 class="ttextos">Select your Client</h4>
+                <select>
+                    <option>Yamma Luna</option>
+                    <option>Bladimir Arroyo</option>
+                </select>
+                <h4 class="ttextos">Enter your Description</h4>
+                <textarea id="descripcion"></textarea>
+                <h4 class="ttextos">Select your Date</h4>
+                <input id="fecha" type="date">
+                <h4 class="ttextos">Enter your Amount</h4>
+                <input class="textos" type="number">
                 <h4 class="ttextos">Id</h4>
-                <input class="textos" type="text" placeholder="Enter Your Id" value="2-566-623">
+                <input class="textos" type="text" placeholder="Enter Your Id">
 
 
             </form>
@@ -100,7 +105,7 @@ and open the template in the editor.
                     <a href="Clients_Administration.html">Cancel</a>
                 </section>
                 <section id="btnsave">
-                    <a href="Client_edit1.html">
+                    <a href="Invoices_AdministrationC.html">
                         <button id="btnsav" value="Save" type="button">
                             Save
                         </button>

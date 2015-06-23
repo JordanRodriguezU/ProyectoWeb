@@ -26,12 +26,21 @@ h1.descripcion{
     text-align: center;
     font-size: 22pt;
     color: gray;
-    width: 100px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
 }
 .x{
-    width: auto;
-    height: 409px;
+    width: 100%;
+    height: 100%;
+}
+.descripciones{
+    width: 100%;
+    height: 25%;
+}
+.content{
+    width: 100%;
+    height: 75%;
 }
 li{
     display: flex;
@@ -131,5 +140,15 @@ body {
 }
 li{
     list-style: none;
+}
+#contenedorimagenes{
+    width: 85%;
+    height: 300px;
+    margin-left: 15%;
+}
+.imagenes{
+    width: 25%;
+    height: 100%;
+    float: left;
 }
 

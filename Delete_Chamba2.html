@@ -7,8 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <title>TODO supply a title</title>
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="New_Invoice.css">
+          <meta charset="utf-8">
+        <link rel="stylesheet" href="Delete_client.css">
     </head>
     <body>
         <div id="contenedor">
@@ -67,51 +67,44 @@ and open the template in the editor.
 
 
         </div>
-                <section id="seccion2">
+        <section id="seccion2">
             <section id="secIn2">
-                
+
                 <img id="imagenewclient" src="Imgs/Clients.png" width="100" height="95" alt="Clients"/>
-                    <p>EDIT INVOICE</p>
+                <p>DELETE CHAMBA</p>
 
-                
+
             </section>
-                    <a href="New_Invoice.html">
+            <a href="New_Invoice.html">
             <button>
-                <input type="button" value="New Invoice"/>
+                <input type="button" value="New Chamba"/>
             </button>
-                    </a>
+            </a>
         </section>
-        
+
+        <section id="seccion3">
+            <p id="texto">
+                Are you sure you want to delete the chamba with name "Bladimir Arroyo" and ID "225"?
+            </p>
+        </section>
         <section id="sectext">
-            <form method="POST">
-                <h4 class="ttextos">Select your Client</h4>
-                <select>
-                    <option>Yamma Luna</option>
-                    <option>Bladimir Arroyo</option>
-                </select>
-                <h4 class="ttextos">Enter your Description</h4>
-                <textarea class="descripcion">Reportera</textarea>
-                <h4 class="ttextos">Select your Date</h4>
-                <input id="fecha" type="date" value="2015-02-12">
-                <h4 class="ttextos">Enter your Amount</h4>
-                <input class="textos" type="number" value="50">
-                <h4 class="ttextos">Id</h4>
-                <input class="textos" type="text" placeholder="Enter Your Id" value="2234">
 
-
-            </form>
             <section id="optabajo">
                 <section id="btncancel">
-                    <a href="Invoices_Administration.html">Cancel</a>
-                </section>
-                <section id="btnsave">
-                    <a href="Client_edit2.html">
-                        <button id="btnsav" value="Save" type="button">
-                            Save
+                    <a href="Chambas_Administration.html">
+                        <button id="btncance" value="Save" type="button">
+                            No
                         </button>
                     </a>
                 </section>
+                <section id="btnsave">
+                    <a href="Chamba_Delete2.html">
+                        <button id="btnsav" value="Save" type="button">
+                            Yes
+                        </button>
+                    </a>
                 </section>
+            </section>
         </section>
     </body>
 </html>

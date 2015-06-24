@@ -222,7 +222,7 @@ p{
     float: left;
     padding-top: 2%;
 }
-#descripcion{
+.descripcion{
     width: 100%;
     border: 1px solid darkgrey;
     color: orange;

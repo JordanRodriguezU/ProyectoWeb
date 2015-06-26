@@ -188,3 +188,6 @@ p{
     width: 30%;
     height: 100%;
 }
+#tab-3 span a{
+    background: red;
+}

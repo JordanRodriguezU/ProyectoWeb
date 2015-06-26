@@ -4,77 +4,61 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 14/06/2015, 01:00:31 PM
+    Created on : 26/06/2015, 12:17:31 PM
     Author     : JordanR
 */
-
 
 .tab:target span:first-of-type a:hover {
     background: #fff;
     color: black;
 }
-//.tab span:nth-of-type(2) {
-    //font-size: 14px;
-    //padding: 20px;
-    //color: #888;
-    //line-height: 18px;
-    //height: 100%;
-   // background: #fff;
-   // position: absolute;
-    //left: 0;
-   // border-bottom-left-radius: 20px;
-   // border-bottom-right-radius: 20px;
-    //border-top-right-radius: 20px;
-//}
-//.tab:target span {
-   // z-index: 1;
-//}
-//.tab:target span:first-of-type a {
-   // background: #fff;
-   // padding: 16px 20px 15px 20px;
-    //color: #1a2c45;
-//}
+.tab span:nth-of-type(2) {
+    font-size: 14px;
+    padding: 20px;
+    color: #888;
+    line-height: 18px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.tab:target span {
+    z-index: 1;
+}
+.tab:target span:first-of-type a {
+    background: #fff;
+    padding: 16px 20px 15px 20px;
+    color: #1a2c45;
+}
 .tab span:first-of-type a:hover {
     background: red;
     color: #fff;
 }
-.tab span a {
+.tab span:first-of-type a {
     cursor: pointer;
     display: inline-block;
     padding: 15px 20px;
-    width: 66%;
-    height: 100%;
     color: white;
-    //border-top-left-radius: 5px;
-    //border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     text-decoration: none;
     background-color: orange;
     font-size: 18px;
     font-weight: bold;
 }
-#a2{
-    width: 69%;
+.tab:first-of-type {
+    margin-left: 0;
 }
-#a3{
-    width: 68%;
-}
-
-
 .tab {
     display: inline-table;
+    margin-left: 10px;
     color: orange;
     background: orange;
     border: 2px dashed white;
-    width: 15%;
-   
 
-}
-#tab-1{
-    margin-right: 1%;
-       
-}
-#tab-2{
-    margin-right: 1%;
 }
 #contenedor{
     background: orange;
@@ -87,9 +71,8 @@ and open the template in the editor.
     margin: 0 auto;
     position: relative;
     top: initial;
-    width:42%;
+    width:420px;
     background: orange;
-    margin-left: 21%;
 }
 #imguser{
     float: right;
@@ -138,7 +121,33 @@ body{
     font-size: 20px;
 }
 
-
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-top: 20px;
+}
+tr{
+    width: 100%;
+    height: 56px;
+}
+tbody{
+    width: 100%;
+    background: white;
+}
+thead{
+    height: 70px;
+    background: green;
+}
+th{
+    color: white;
+}
+td{
+    width: 6%;
+    text-align: center;
+    border: 0px;
+    margin: 0px;
+}
 li{
     list-style: none;
 }
@@ -165,25 +174,8 @@ button{
 input{
     background: orange;
     color: white;
-    border: 0px outset buttonface;
+    border: 0px;
     font-size: 17px;
-}
-#sectext{
-    width: 100%;
-}
-.textos{
-    background: white;
-    width:100%;
-    border: 1px solid darkgrey;
-    color: orange;
-}
-.ttextos{
-    margin-bottom: 7px;
-    margin-top: 7px;
-}
-form{
-    width: 65%;
-    margin-left: 20%;
 }
 p{
     width: 70%;
@@ -192,37 +184,11 @@ p{
     font-size: 34px;
     color: orange;
 }
-#imagenewclient{
+#imageninvoice{
     width: 30%;
     height: 100%;
 }
-#optabajo{
-    width: 65%;
-    height: 50px;
-    margin-left: 20%;
-}
-#btnsave{
-    float: right;
-    color: white;
-    
-    width: 12%;
-    height: 100%;
-   // border-radius: 2px;
-}
-#btnsav{
-    background: orange;
-    background-color: green;
-    margin-top: 0px;
-    margin-right: 0px;
-    width: 100%;
-    height: 100%;
-}
-#btncancel{
-    width: 13%;
-    height: 100%;
-    float: left;
-    padding-top: 2%;
-}
-#tab-1 span a{
+#tab-2 span a{
     background: red;
 }
+

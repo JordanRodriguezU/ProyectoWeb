@@ -233,3 +233,6 @@ p{
     height: 100%;
     float: left;
 }
+#tab-1 span a{
+    background: red;
+}

@@ -187,3 +187,6 @@ p{
     width: 30%;
     height: 100%;
 }
+#tab-1 span a{
+    background: red;
+}

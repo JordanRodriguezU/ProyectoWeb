@@ -8,10 +8,10 @@ and open the template in the editor.
     Author     : JordanR
 */
 
-.tab:target span:first-of-type a:hover {
+/*.tab:target span:first-of-type a:hover {
     background: #fff;
     color: black;
-}
+}*/
 center h1{
     margin: 40px;
     color: orange;
@@ -48,7 +48,7 @@ li{
 section ul li section{
     height: 40px;
 }
-.tab span:nth-of-type(2) {
+/*.tab span:nth-of-type(2) {
     font-size: 14px;
     padding: 20px;
     color: #888;
@@ -60,20 +60,20 @@ section ul li section{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-}
+}*/
 .tab p {
     padding: 0; 
     margin: 0;
     text-align: justify;
 }
-.tab:target span {
+/*.tab:target span {
     z-index: 1;
 }
 .tab:target span:first-of-type a {
     background: #fff;
     padding: 16px 20px 15px 20px;
     color: #1a2c45;
-}
+}*/
 .tab span:first-of-type a:hover {
     background: red;
     color: #fff;
@@ -106,13 +106,13 @@ FONT{
     top: 2px;
     border: 2px dashed white;
 }
-img{
+/*img{
     float: right;
     margin-left: 10px;
 }
 .tab:first-of-type {
     margin-left: 0;
-}
+}*/
 .tab {
     display: inline-table;
     margin-left: 10px;

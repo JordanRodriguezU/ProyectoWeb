@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 13/06/2015, 11:11:12 PM
     Author     : JordanR
 */
-.tab:target span:first-of-type a:hover {
+/*.tab:target span:first-of-type a:hover {
     background: #fff;
     color: black;
 }
@@ -31,7 +31,7 @@ and open the template in the editor.
     background: #fff;
     padding: 16px 20px 15px 20px;
     color: #1a2c45;
-}
+}*/
 .tab span:first-of-type a:hover {
     background: red;
     color: #fff;
@@ -48,9 +48,9 @@ and open the template in the editor.
     font-size: 18px;
     font-weight: bold;
 }
-.tab:first-of-type {
+/*.tab:first-of-type {
     margin-left: 0;
-}
+}*/
 .tab {
     display: inline-table;
     margin-left: 10px;
@@ -180,7 +180,7 @@ p{
     width: 70%;
     margin-top: 36px;
     float: right;
-    font-size: 29px;
+    font-size: 36px;
     color: orange;
 }
 #imagencliente{
